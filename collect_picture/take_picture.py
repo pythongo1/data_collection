@@ -35,7 +35,7 @@ while True:
     #输入空格保存图片
     elif k == ord(' '):
         i = i + 1
-        PIL.Image.fromarray(color_img).save(os.path.join("/home/itriq200/realsense_folder/collect_picture/picture_data",str(i)+'.png'))
+        PIL.Image.fromarray(color_img).save(os.path.join("/home/itriq200/realsense_folder/data_process/collect_picture/picture_data",str(i)+'.png'))
         print("Frames{} Captured".format(i))
 
 pipe.stop()

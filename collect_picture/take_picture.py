@@ -11,7 +11,7 @@ pipe = rs.pipeline()
 cfg = rs.config()
 cfg.enable_stream(rs.stream.color, 640, 480, rs.format.rgb8, 30) # 可設width height，最後一個是 frame rate
 
-i = 0
+i = 40
   
 profile=pipe.start(cfg)
   
